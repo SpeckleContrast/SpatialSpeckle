@@ -1,3 +1,6 @@
+% The article "Improved spatial speckle contrast model for tissue blood flow imaging: Effects of spatial correlation among neighboring camera pixels" 
+% in the Journal of Biomedical Optics (JBO) should be cited in any work related to the software.
+
 function RETURN=MuInv(M,eta,xi)
 RETURN=(1./((2*pi.*M).^2)).*factorMu(M,eta).*factorMu(M,xi);
 end
