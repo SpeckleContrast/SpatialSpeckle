@@ -10,14 +10,26 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    127611,       2404]
-NotebookOptionsPosition[    126692,       2381]
-NotebookOutlinePosition[    127098,       2397]
-CellTagsIndexPosition[    127055,       2394]
+NotebookDataLength[    128182,       2420]
+NotebookOptionsPosition[    127135,       2394]
+NotebookOutlinePosition[    127541,       2410]
+CellTagsIndexPosition[    127498,       2407]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+The article \"Improved spatial speckle contrast model for tissue blood flow \
+imaging: Effects of spatial correlation among neighboring camera pixels\"
+in the Journal of Biomedical Optics (JBO) should be cited in any work related \
+to the software .\
+\>", "Chapter",
+ CellChangeTimes->{{3.9073493064836264`*^9, 
+  3.9073493203620386`*^9}},ExpressionUUID->"788883d6-2a9a-4a5e-9346-\
+143615e54d0f"],
+
 Cell[BoxData[{
  RowBox[{
   RowBox[{"MuInvFactor", "[", 
@@ -2378,6 +2390,7 @@ lULNPrHEstlOB/8D1i2gvQ==
    3.9073454944541993`*^9},
  CellLabel->"Out[17]=",ExpressionUUID->"44dc364f-3488-4348-95b3-fb1fe1befc07"]
 }, Open  ]]
+}, Open  ]]
 },
 WindowSize->{574.8, 579.6},
 WindowMargins->{{-4.8, Automatic}, {Automatic, 0}},
@@ -2396,15 +2409,18 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 2679, 73, 236, "Input",ExpressionUUID->"03d7d2a8-b989-45b2-a501-501fd29eb3e5"],
 Cell[CellGroupData[{
-Cell[3262, 97, 3082, 67, 438, "Input",ExpressionUUID->"04c9fa6e-503d-4ab8-b7a8-d88e7f7b050a"],
-Cell[6347, 166, 87161, 1537, 174, "Output",ExpressionUUID->"00cc027d-f1d6-4339-910c-8514dbc03ae3"]
+Cell[580, 22, 406, 8, 405, "Chapter",ExpressionUUID->"788883d6-2a9a-4a5e-9346-143615e54d0f"],
+Cell[989, 32, 2679, 73, 255, "Input",ExpressionUUID->"03d7d2a8-b989-45b2-a501-501fd29eb3e5"],
+Cell[CellGroupData[{
+Cell[3693, 109, 3082, 67, 438, "Input",ExpressionUUID->"04c9fa6e-503d-4ab8-b7a8-d88e7f7b050a"],
+Cell[6778, 178, 87161, 1537, 174, "Output",ExpressionUUID->"00cc027d-f1d6-4339-910c-8514dbc03ae3"]
 }, Open  ]],
-Cell[93523, 1706, 5787, 134, 872, "Input",ExpressionUUID->"3100ff2c-7a97-4cb0-8b4a-6d8183b00d2b"],
+Cell[93954, 1718, 5787, 134, 872, "Input",ExpressionUUID->"3100ff2c-7a97-4cb0-8b4a-6d8183b00d2b"],
 Cell[CellGroupData[{
-Cell[99335, 1844, 2822, 59, 275, "Input",ExpressionUUID->"811bd977-1ac1-4b3f-ba46-96bdfc634267"],
-Cell[102160, 1905, 24516, 473, 148, "Output",ExpressionUUID->"44dc364f-3488-4348-95b3-fb1fe1befc07"]
+Cell[99766, 1856, 2822, 59, 275, "Input",ExpressionUUID->"811bd977-1ac1-4b3f-ba46-96bdfc634267"],
+Cell[102591, 1917, 24516, 473, 148, "Output",ExpressionUUID->"44dc364f-3488-4348-95b3-fb1fe1befc07"]
+}, Open  ]]
 }, Open  ]]
 }
 ]
