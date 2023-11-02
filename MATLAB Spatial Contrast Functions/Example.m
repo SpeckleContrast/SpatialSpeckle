@@ -21,7 +21,7 @@ Mu20=MuInv(M,2,0);
 Mu21=MuInv(M,2,1);
 Mu22=MuInv(M,2,2);
 
-figure('Renderer','painters','Position',[30,60,1400,500]);
+figure();
 subplot(1,2,1);
 semilogx(M,Mu00,'m','LineWidth',lw);hold on;
 semilogx(M,Mu10,'r','LineWidth',lw);
