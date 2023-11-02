@@ -32,7 +32,7 @@ semilogx(M,Mu22,'c','LineWidth',lw);hold off;
 grid;
 legend('1/\mu_{0,0}','1/\mu_{1,0}','1/\mu_{1,1}',...
     '1/\mu_{2,0}','1/\mu_{2,1}','1/\mu_{2,2}','Location','southwest');
-xlabel('M = a^2/\pi b^2 = Pixel area/Speckle area'); ylabel('1/\mu_{\eta,\xi}');
+xlabel('M = a^2/\pi b^2 = Pixel area/Speckle area'); ylabel('1/\mu_{\eta,\xi} (a.u.)');
 xlim([xmin, xmax]);
 set(gca,'fontsize',TamAx);
 
@@ -50,6 +50,6 @@ hold off;
 grid;
 
 legend('K_{s}(1,0) (current model)','K_{s}(3^2,1)','K_{s}(5^2,2)','Location','southwest');
-xlabel('M = a^2/\pi b^2 = Pixel area/Speckle area'); ylabel('K_{s}(N,p)');
+xlabel('M = a^2/\pi b^2 = Pixel area/Speckle area'); ylabel('K_{s}(N,p) (a.u.)');
 ylim([0.3,1]);xlim([0.01,10]);
 set(gca,'fontsize',TamAx);
